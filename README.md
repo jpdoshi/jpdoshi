@@ -6,24 +6,7 @@
 
 ###
 
-<h2 align="left">About me</h2>
-
-###
-
-<p align="left">
-  I am tech enthusiast and software developer, who loves to build innovative projects.<br><br>I love to work on developing projects for fast, robust and seamless solutions. I have worked on various languages and frameworks.<br><br>I have passion to build solutions from scratch and contribute my work to open-source platforms such as github. I like writing business logic, algorithms and data-related stuff. 😉<br><br>🔨 I am currently working on:
-</p>
-
-- [Hatchet Programming Language](https://github.com/jpdoshi/hatchet-lang/)
-- [LatteAPI](https://github.com/jpdoshi/latteapi)
-
-<p>
-Thank you for taking the time to read my README profile. Feel free to explore my GitHub profile and get in touch with me if you would like to collaborate or learn more about my projects. 🥂
-</p>
-
-###
-
-<h2 align="left">Tech Known</h2>
+<h2 align="left">Favourite Tech</h2>
 
 ###
 
@@ -36,40 +19,47 @@ Thank you for taking the time to read my README profile. Feel free to explore my
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="36" alt="java logo"  />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" height="36" alt="rust logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="36" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="36" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36" alt="fastapi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" height="36" alt="sqlalchemy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" height="36" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="git logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="docker logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="36" alt="mongodb logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="36" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="36" alt="sass logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="36" alt="nextjs logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="36" alt="sqlite logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="36" alt="vscode logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="36" alt="django logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36" alt="fastapi logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="36" alt="nextjs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="36" alt="express logo"  />
 </div>
 
 ###
 
-<h2 align="left">Social links</h2>
+<h2 align="left">About me</h2>
+
+###
+
+<p align="left">
+  I am tech enthusiast and software developer, who loves to build innovative projects.<br><br>I love to work on developing projects for fast, robust and seamless solutions. I have worked on many projects using various languages and frameworks.<br><br>I have passion to build solutions from scratch and contribute my work to open-source platforms such as github. I like writing business logic, algorithms and data-related stuff. 😉<br><br>🔨 I am currently working on:
+</p>
+
+- [hatchet-lang](https://github.com/jpdoshi/hatchet-lang/)
+- [LatteAPI](https://github.com/jpdoshi/latteapi)
+
+<p>
+Thank you for taking the time to read my README profile. Feel free to explore my GitHub profile and get in touch with me if you would like to collaborate or learn more about my projects. 🥂
+</p>
+
+###
+
+<h2 align="left">Stay Connected</h2>
 
 ###
 
@@ -77,11 +67,12 @@ Thank you for taking the time to read my README profile. Feel free to explore my
   <a href="https://x.com/theradjay2811" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="36" height="24" alt="twitter logo"  />
   </a>
+  <a href="https://instagram.com/theradjay" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="36" height="24" alt="instagram logo"  />
+  </a>
   <a href="https://codesandbox.io/u/jpdoshi2811" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codesandbox/default.svg" width="36" height="24" alt="codesandbox logo"  />
   </a>
-  <a href="https://jpdoshi2811@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="36" height="24" alt="gmail logo"  />
   </a>
 </div>
 
