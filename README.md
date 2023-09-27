@@ -68,9 +68,11 @@ Thank you for taking the time to read my profile. Feel free to explore my reposi
   <a href="https://instagram.com/theradjay" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="36" height="24" alt="instagram logo"  />
   </a>
+  <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="36" height="24" alt="stackoverflow logo"  />
+  </a>
   <a href="https://codesandbox.io/u/jpdoshi2811" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codesandbox/default.svg" width="36" height="24" alt="codesandbox logo"  />
-  </a>
   </a>
 </div>
 
