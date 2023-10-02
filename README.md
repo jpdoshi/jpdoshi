@@ -17,7 +17,7 @@
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="python logo"  />
   <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="36" alt="oracle logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="36" alt="java logo"  />
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" height="36" alt="rust logo"  />
   <img width="6" />
@@ -48,7 +48,7 @@
   I am tech enthusiast, who loves to build innovative projects. I believe in self-learning and have fond of research and development in field of CS and IT. I love to build solid solutions from ground-up. I prefer writing business logic, algorithms and data related stuff. 🚀<br><br> I have worked on few projects with various languages and frameworks. I have passion to build solutions from scratch and contribute my work to open-source platforms such as github. Feel free to refer to my github projects and follow if you find my work helpful. 😉<br><br>🔨 I am currently working on:
 </p>
 
-- [hatchet-lang](https://github.com/jpdoshi/hatchet-lang/)
+- [titanite](https://github.com/jpdoshi/titanite-lang/)
 - [LatteAPI](https://github.com/jpdoshi/latteapi)
 
 <p>
