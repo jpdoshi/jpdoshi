@@ -37,10 +37,7 @@
 ###
 
 <p align="left">
-  I am tech enthusiast, who loves to build innovative projects. I believe in self-learning and have fond of research and development in field of CS and IT. I love to build solid solutions from ground-up. I prefer writing business logic, algorithms and data related stuff. 🚀<br><br> I have worked on few projects with various languages and frameworks. I have passion to build solutions from scratch and contribute my work to open-source platforms such as github. Feel free to refer to my github projects and follow if you find my work helpful. 😉<br><br>🔨 I am currently working on:
-</p>
-
-- [LatteAPI](https://github.com/jpdoshi/latteapi)
+  I am tech enthusiast, who loves to build innovative projects. I believe in self-learning and have fond of research and development in field of CS and IT. I love to build solid solutions from ground-up. I prefer writing business logic, algorithms and data related stuff. 🚀<br><br> I have worked on few projects with various languages and frameworks. I have passion to build solutions from scratch and contribute my work to open-source platforms such as github. Feel free to refer to my github projects and follow if you find my work helpful. 😉<br>
 
 <p>
 Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. 🥂
@@ -53,10 +50,10 @@ Thank you for taking the time to read my profile. Feel free to explore my reposi
 ###
 
 <div align="left">
-  <a href="https://x.com/theradjay2811" target="_blank">
+  <a href="https://twitter.com/_radicaljay" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="36" height="24" alt="twitter logo"  />
   </a>
-  <a href="https://instagram.com/theradjay" target="_blank">
+  <a href="https://instagram.com/_radicaljay" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="36" height="24" alt="instagram logo"  />
   </a>
   <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
