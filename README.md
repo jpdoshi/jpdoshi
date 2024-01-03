@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Hello guys, my name is Jainam P. Doshi 👨‍💻, Tech enthusiast from India 🇮🇳</p>
+<p align="left">Hello guys, my name is Jainam P. Doshi 👨‍💻, CS & IT Student from India 🇮🇳</p>
 
 ###
 
@@ -10,25 +10,9 @@
 
 ###
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36" alt="linux logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="python logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="36" alt="java logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" alt="nodejs logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="react logo"  />
-  <img width="6" />
-  <img src="https://devicons.railway.app/i/chatgpt.svg" height="36" alt="chatgpt logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36" alt="fastapi logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="36" alt="django logo"  />
-  <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="36" alt="mongodb logo"  />
-</div>
+<p align="left">
+<a href="#"><img src="https://skillicons.dev/icons?i=androidstudio,unity,sass,django,fastapi,react,expressjs,linux" /></a>
+</p>
 
 ###
 
@@ -37,30 +21,29 @@
 ###
 
 <p align="left">
-  I am tech enthusiast, who loves to build innovative projects. I believe in self-learning and have fond of research and development in field of CS and IT. I love to build solid solutions from ground-up. I prefer writing business logic, algorithms and data related stuff. 🚀<br><br> I have worked on few projects with various languages and frameworks. I have passion to build solutions from scratch and contribute my work to open-source platforms such as github. Feel free to refer to my github projects and follow if you find my work helpful. 😉<br>
-
-<p>
-Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. 🥂
+  I am CS & IT student and enthusiast, who loves to build innovative projects 💡. I believe in self-learning and have fond of research and development in field of CS and IT. I enjoy designing UI/UX as well as business logic, algorithms and data related stuff 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
+<br><br>
+Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. Ciao! 🥂
 </p>
 
 ###
 
-<h2 align="left">Stay Connected</h2>
+<h3 align="left">Stay Connected</h3>
 
 ###
 
 <div align="left">
   <a href="https://twitter.com/_radicaljay" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="36" height="24" alt="twitter logo"  />
+    <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Twitter.svg" width="40" height="36" alt="twitter logo"  />
   </a>
   <a href="https://instagram.com/_radicaljay" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="36" height="24" alt="instagram logo"  />
+    <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Instagram.svg" width="40" height="36" alt="instagram logo"  />
   </a>
   <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="36" height="24" alt="stackoverflow logo"  />
+    <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/StackOverflow-Dark.svg" width="40" height="36" alt="stackoverflow logo"  />
   </a>
   <a href="https://codesandbox.io/u/jpdoshi2811" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codesandbox/default.svg" width="36" height="24" alt="codesandbox logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codesandbox/default.svg" width="40" height="36" alt="codesandbox logo"  />
   </a>
 </div>
 
