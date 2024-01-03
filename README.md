@@ -11,7 +11,7 @@
 ###
 
 <p align="left">
-<a href="#"><img src="https://skillicons.dev/icons?i=androidstudio,unity,sass,django,fastapi,react,expressjs,linux" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=androidstudio,py,sass,django,fastapi,react,nodejs,linux" /></a>
 </p>
 
 ###
