@@ -33,10 +33,7 @@ Thank you for taking the time to read my profile. Feel free to explore my reposi
 ###
 
 <div align="left">
-  <a href="https://twitter.com/_radicaljay" target="_blank">
-    <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Twitter.svg" width="40" height="36" alt="twitter logo"  />
-  </a>
-  <a href="https://instagram.com/_radicaljay" target="_blank">
+  <a href="https://www.instagram.com/_jpdoshi" target="_blank">
     <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Instagram.svg" width="40" height="36" alt="instagram logo"  />
   </a>
   <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
