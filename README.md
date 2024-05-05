@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Hello guys, my name is Jainam P. Doshi 👨‍💻, CS & IT Student from India 🇮🇳</p>
+<p align="left">Hello guys, my name is Jainam P. Doshi 👨‍💻, Tech Enthusiast from India 🇮🇳</p>
 
 ###
 
@@ -21,7 +21,7 @@
 ###
 
 <p align="left">
-  I am NodeJS backend developer, who loves to build innovative projects 💡. I believe in self-learning and have fond of research and development in field of CS and IT. I enjoy designing UI/UX as well as business logic, algorithms and data related stuff 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
+  I am NodeJS backend developer, who loves to build innovative projects 💡. I believe in self-learning and have fond of research and development in field of CS and IT. I enjoy writing business logic, algorithms and data related stuff 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
 <br><br>
 Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. Ciao! 🥂
 </p>
