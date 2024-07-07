@@ -11,7 +11,7 @@
 ###
 
 <p align="left">
-<a href="#"><img src="https://skillicons.dev/icons?i=nodejs,mongodb,py,django,fastapi,next,sass,linux" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=flutter,firebase,androidstudio,nodejs,mongodb,py,git,linux" /></a>
 </p>
 
 ###
@@ -21,7 +21,7 @@
 ###
 
 <p align="left">
-  I am NodeJS backend developer, who loves to build innovative projects 💡. I believe in self-learning and have fond of research and development in field of CS and IT. I enjoy writing business logic, algorithms and data related stuff 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
+  I am CS enthusiast, who loves to make innovative projects 💡. I believe in self-learning and have fond of mobile development. I enjoy building mobile apps, with flutter, native android (java/kotlin) with seamless integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
 <br><br>
 Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. Ciao! 🥂
 </p>
