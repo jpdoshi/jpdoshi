@@ -11,7 +11,7 @@
 ###
 
 <p align="left">
-<a href="#"><img src="https://skillicons.dev/icons?i=flutter,firebase,androidstudio,nodejs,py,mongodb,git,linux" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=flutter,androidstudio,nodejs,py,mongodb,git,linux" /></a>
 </p>
 
 ###
@@ -21,7 +21,7 @@
 ###
 
 <p align="left">
-  I am tech enthusiast and CS & IT student, who loves to make innovative projects 💡. I believe in self-learning and have fond of mobile development. I enjoy building mobile apps with flutter (dart) and native android (java/kotlin) with seamless API integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
+  I am tech enthusiast and CS & IT student, who loves to make innovative projects 💡. I believe in self-learning and have fond of mobile development. I enjoy building APIs with NodeJS and mobile apps with flutter and seamless API integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
 <br><br>
 Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. Ciao! 🥂
 </p>
