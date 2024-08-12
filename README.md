@@ -34,13 +34,13 @@ Thank you for taking the time to read my profile. Feel free to explore my reposi
 
 <div align="left">
   <a href="https://www.instagram.com/_jpdoshi" target="_blank">
-    <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Instagram.svg" width="40" height="36" alt="instagram logo"  />
+    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram logo"  />
   </a>
   <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
-    <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/StackOverflow-Dark.svg" width="40" height="36" alt="stackoverflow logo"  />
+    <img src="https://skillicons.dev/icons?i=stackoverflow" alt="Stack Overflow logo"  />
   </a>
   <a href="https://codesandbox.io/u/jpdoshi2811" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codesandbox/default.svg" width="40" height="36" alt="codesandbox logo"  />
+    <img src="https://skillicons.dev/icons?i=codepen" alt="Codesandbox logo"  />
   </a>
 </div>
 
