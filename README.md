@@ -33,8 +33,8 @@ Thank you for taking the time to read my profile. Feel free to explore my reposi
 ###
 
 <div align="left">
-  <a href="https://www.instagram.com/_jpdoshi" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram logo"  />
+  <a href="https://www.linkedin.com/in/jainam-doshi-24063a2a0/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="Instagram logo"  />
   </a>
   <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
     <img src="https://skillicons.dev/icons?i=stackoverflow" alt="Stack Overflow logo"  />
