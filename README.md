@@ -2,7 +2,8 @@
 
 ###
 
-<p align="left">Hello guys, my name is Jainam P. Doshi 👨‍💻, Tech Enthusiast from India 🇮🇳</p>
+<p align="left">👋 Hello there, I am Jainam P. Doshi, Tech Enthusiast from India 🇮🇳. I love to create innovative apps</p>
+<a href="http://jpdoshi.vercel.app">Check out my Portfolio Website made with Vite and React</a>
 
 ###
 
