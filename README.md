@@ -12,7 +12,7 @@
 ###
 
 <p align="left">
-<a href="#"><img src="https://skillicons.dev/icons?i=unity,flutter,react,nodejs,py,mongodb,git,linux" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=unity,flutter,react,nodejs,django,mongodb,git,linux" /></a>
 </p>
 
 ###
