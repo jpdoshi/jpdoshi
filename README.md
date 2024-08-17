@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">👋 Hello there, I am Jainam P. Doshi, Tech Enthusiast from India 🇮🇳. I love to create innovative apps</p>
+<p align="left">👋 Hello there! I am Jainam P. Doshi, Tech Enthusiast from India 🇮🇳. 💻 I love to design cool apps with latest tech.</p>
 <a href="http://jpdoshi.vercel.app">Check out my Portfolio Website made with Vite and React</a>
 
 ###
@@ -12,7 +12,7 @@
 ###
 
 <p align="left">
-<a href="#"><img src="https://skillicons.dev/icons?i=flutter,androidstudio,nodejs,py,mongodb,git,linux" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=unity,flutter,react,nodejs,py,mongodb,git,linux" /></a>
 </p>
 
 ###
