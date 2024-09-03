@@ -12,7 +12,7 @@
 ###
 
 <p align="left">
-<a href="#"><img src="https://skillicons.dev/icons?i=unity,flutter,react,nodejs,django,mongodb,git,linux" /></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=unreal,react,nodejs,django,mongodb,git,vim,linux" /></a>
 </p>
 
 ###
@@ -22,7 +22,7 @@
 ###
 
 <p align="left">
-  I am software developer and CS & IT student, who loves to make innovative projects 💡. I believe in self-learning and have fond of mobile development. I enjoy building APIs with NodeJS and mobile apps with flutter and seamless API integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
+  I am software developer and CS & IT student, who loves to make innovative projects 💡. I believe in self-learning and have fond of video game development (UE5). I enjoy building apps with React and Node with seamless API integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
 <br><br>
 Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. Ciao! 🥂
 </p>
