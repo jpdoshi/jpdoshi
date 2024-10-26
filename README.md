@@ -22,7 +22,7 @@
 ###
 
 <p align="left">
-  I am a software developer who loves to make innovative projects. I believe in self-learning and have fond of machine learning and software development. I enjoy building neural networks with pytorch and web apps with React and Node with seamless API integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
+  I am a software engineer who loves to make innovative projects. I believe in self-learning and have fond of machine learning and fullstack development. I enjoy building neural networks with pytorch and web apps with react and node with seamless API integration 🚀. Feel free to refer to my github projects and follow if you find my work helpful. 😉
 <br><br>
 Thank you for taking the time to read my profile. Feel free to explore my repositories and get in touch with me if you would like to collaborate or learn more about my projects. Ciao! 🥂
 </p>
