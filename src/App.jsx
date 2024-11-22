@@ -3,7 +3,7 @@ import React from "react";
 const App = () => {
   return (
     <main>
-      <img className="m-4 h-[64px]" src="/pfp.png" alt="profile picture" />
+      <h1 className="text-3xl font-bold">jpdoshi.</h1>
     </main>
   );
 };
