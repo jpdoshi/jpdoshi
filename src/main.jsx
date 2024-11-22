@@ -10,15 +10,13 @@ createRoot(document.getElementById("root")).render(
     <ReactLenis root>
       <AnimatedCursor
         innerSize={6}
-        outerSize={46}
+        outerSize={48}
         color="255, 255, 255"
-        outerAlpha={1}
-        innerScale={0.7}
-        outerScale={5}
         outerStyle={{
           backgroundColor: "transparent",
-          border: "2px solid var(--text-color)",
+          border: "2px solid rgba(255, 255, 255, 0.2)",
         }}
+        outerScale={1.5}
         innerStyle={{
           backgroundColor: "var(--text-color)",
         }}
