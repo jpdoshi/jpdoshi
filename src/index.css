@@ -10,4 +10,18 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
 }

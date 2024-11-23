@@ -9,16 +9,19 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ReactLenis root>
       <AnimatedCursor
-        innerSize={6}
-        outerSize={48}
+        innerSize={8}
+        outerSize={64}
         color="255, 255, 255"
         outerStyle={{
           backgroundColor: "transparent",
-          border: "2px solid rgba(255, 255, 255, 0.2)",
+          border: "2px solid rgba(255, 255, 255, 0.25)",
+          mixBlendMode: 'exclusion'
         }}
-        outerScale={1.5}
+        innerScale={0.8}
+        outerScale={1.34}
         innerStyle={{
           backgroundColor: "var(--text-color)",
+          mixBlendMode: 'exclusion'
         }}
         clickables={[
           "a",
@@ -32,6 +35,7 @@ createRoot(document.getElementById("root")).render(
           "textarea",
           "button",
           ".link",
+          '.nav-title'
         ]}
       />
       <App />
