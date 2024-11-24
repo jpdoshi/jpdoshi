@@ -11,17 +11,17 @@ createRoot(document.getElementById("root")).render(
       <AnimatedCursor
         innerSize={8}
         outerSize={64}
-        color="255, 255, 255"
+        color="250, 250, 250"
         outerStyle={{
           backgroundColor: "transparent",
-          border: "2px solid rgba(255, 255, 255, 0.25)",
-          mixBlendMode: 'exclusion'
+          border: "2px solid rgba(250, 250, 250, 0.25)",
+          mixBlendMode: "exclusion",
         }}
         innerScale={0.8}
         outerScale={1.34}
         innerStyle={{
-          backgroundColor: "var(--text-color)",
-          mixBlendMode: 'exclusion'
+          backgroundColor: "var(--bg-color)",
+          mixBlendMode: "exclusion",
         }}
         clickables={[
           "a",
@@ -35,7 +35,7 @@ createRoot(document.getElementById("root")).render(
           "textarea",
           "button",
           ".link",
-          '.nav-title'
+          ".nav-title",
         ]}
       />
       <App />

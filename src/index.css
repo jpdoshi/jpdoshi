@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --bg-color: #000;
-  --text-color: #fafafa;
+  --bg-color: #fafafa;
+  --text-color: #000;
 }
 
 body {
@@ -14,8 +14,13 @@ body {
   overflow-x: hidden;
 }
 
+*::selection {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}
+
 body::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {
@@ -23,5 +28,10 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: var(--text-color);
+  border-radius: 8px;
+}
+
+nav {
+  background-color: rgba(250, 250, 250, 0.5);
 }

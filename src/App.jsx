@@ -7,15 +7,21 @@ const App = () => {
   return (
     <main className="overflow-x-hidden">
       <Navbar />
-      <Page>
-        <ModelViewer
-          src="/assets/dragon.glb"
-          style={{ height: "500px", width: "500px" }}
-          options={{
-            "camera-target": "0m 1.5m 0m",
-            "camera-orbit": "-140deg 80deg 12m",
-          }}
+      <Page centerContent>
+        <img
+          src="/pfp.png"
+          alt="Profile Picture"
+          className="h-[180px] mb-6 block mx-auto"
         />
+        <div className="w-[100vw]">
+          <blockquote className="text-center px-6">
+            <span className="text-2xl italic">
+              &ldquo;Good design is obvious. Great design is transparent.&ldquo;
+            </span>
+            <br />
+            <span className="text-xl font-[500]">- Joe Sparano</span>
+          </blockquote>
+        </div>
       </Page>
       <Page>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquid
