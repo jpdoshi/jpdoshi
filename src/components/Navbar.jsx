@@ -1,11 +1,14 @@
 import React, { useEffect, useRef } from "react";
 
+import { useLenis } from "@studio-freight/react-lenis";
+
 const Navbar = () => {
   const navbarRef = useRef();
+  const lenis = useLenis();
 
   useEffect(() => {
     const scrollHandler = () => {
-      if (window.scrollY > window.innerHeight) {
+      if (window.scrollY > window.innerHeight - 64) {
         navbarRef.current.style.top = "0";
       } else {
         navbarRef.current.style.top = "-100%";
@@ -19,10 +22,30 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", scrollHandler);
   }, []);
 
+  useEffect(() => {
+    const handleClick = (e) => {
+      const href = e.target.getAttribute("href");
+
+      if (href && href.startsWith("#")) {
+        e.preventDefault();
+        lenis.scrollTo(href);
+      }
+    };
+
+    document.querySelectorAll(".link").forEach((link) => {
+      link.addEventListener("click", handleClick);
+    });
+
+    return () =>
+      document.querySelectorAll(".link").forEach((link) => {
+        link.removeEventListener("click", handleClick);
+      });
+  }, [lenis]);
+
   return (
     <nav
       ref={navbarRef}
-      className="fixed z-50 w-[100vw] top-[-100%] px-4 md:px-6 flex h-[48px] md:h-[64px] duration-[800ms] overflow-auto"
+      className="fixed z-50 w-[100vw] top-[-100%] px-4 flex h-[48px] md:h-[64px] duration-[800ms] overflow-auto"
     >
       <a href="/" className="text-xl font-bold cursor-none nav-title my-auto">
         jpdoshi.

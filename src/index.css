@@ -5,6 +5,13 @@
 :root {
   --bg-color: #fafafa;
   --text-color: #000;
+  --cursor-color: #fafafa;
+}
+
+@font-face {
+  font-family: "Parisienne";
+  src: url("/fonts/Parisienne.ttf");
+  font-display: swap;
 }
 
 body {
@@ -20,7 +27,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 4px;
 }
 
 body::-webkit-scrollbar-track {
@@ -29,9 +36,24 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--text-color);
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 nav {
   background-color: rgba(250, 250, 250, 0.5);
+}
+
+.quote {
+  font-family: "Parisienne";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --text-color: #fafafa;
+  }
+
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }

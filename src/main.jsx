@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+
 import "./index.css";
 import App from "./App.jsx";
+
 import ReactLenis from "@studio-freight/react-lenis";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -11,7 +13,7 @@ createRoot(document.getElementById("root")).render(
       <AnimatedCursor
         innerSize={8}
         outerSize={64}
-        color="250, 250, 250"
+        color="var(--cursor-color)"
         outerStyle={{
           backgroundColor: "transparent",
           border: "2px solid rgba(250, 250, 250, 0.25)",
@@ -20,7 +22,7 @@ createRoot(document.getElementById("root")).render(
         innerScale={0.8}
         outerScale={1.34}
         innerStyle={{
-          backgroundColor: "var(--bg-color)",
+          backgroundColor: "var(--cursor-color)",
           mixBlendMode: "exclusion",
         }}
         clickables={[
@@ -35,6 +37,7 @@ createRoot(document.getElementById("root")).render(
           "textarea",
           "button",
           ".link",
+          ".btn",
           ".nav-title",
         ]}
       />
