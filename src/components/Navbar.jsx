@@ -52,37 +52,58 @@ const Navbar = () => {
       </a>
       <ul className="ml-3 md:ml-auto flex my-auto">
         <li>
-          <a href="#intro" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#intro"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             intro
           </a>
         </li>
         <li>
-          <a href="#about" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#about"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             about
           </a>
         </li>
         <li>
-          <a href="#skills" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#skills"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             skills
           </a>
         </li>
         <li>
-          <a href="#portfolio" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#portfolio"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             portfolio
           </a>
         </li>
         <li>
-          <a href="#projects" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#projects"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             projects
           </a>
         </li>
         <li>
-          <a href="#blog" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#blog"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             blog
           </a>
         </li>
         <li>
-          <a href="#social" className="link mx-2 md:mx-3 cursor-none">
+          <a
+            href="#social"
+            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
+          >
             social
           </a>
         </li>
