@@ -28,11 +28,8 @@ const App = () => {
           </blockquote>
         </div>
       </Page>
-      <img
-        className="btn animate-bounce absolute bottom-[20px] h-[48px] p-[6px] left-[calc(50%_-_18px)] border border-opacity-[25%] rounded-full border-gray-500"
-        src="/assets/arrow.svg"
-        alt="Scroll Down"
-        loading="lazy"
+      <i
+        className="las la-arrow-down btn animate-bounce text-[36px] absolute bottom-[24px] left-[calc(50%_-_18px)]"
         onClick={() => {
           lenis.scrollTo("#intro");
         }}

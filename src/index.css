@@ -40,20 +40,31 @@ body::-webkit-scrollbar-thumb {
 }
 
 nav {
-  background-color: rgba(250, 250, 250, 0.67);
+  background-color: var(--bg-color);
 }
 
 .quote {
   font-family: "Parisienne";
 }
 
+.link {
+  display: block;
+}
+
+.link:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px var(--text-color);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.link:hover:after {
+  transform: scaleX(1);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000;
     --text-color: #fafafa;
-  }
-
-  nav {
-    background-color: rgba(0, 0, 0, 0.67);
   }
 }

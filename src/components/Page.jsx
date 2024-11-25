@@ -1,8 +1,20 @@
 import React from "react";
 
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 const Page = (props) => {
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
+
   return (
-    <div className="min-h-[100vh] relative" id={props.id ? props.id : "none"}>
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: inView ? 1 : 0 }}
+      transition={{ duration: 1 }}
+      className="min-h-[100vh] relative"
+      id={props.id ? props.id : "none"}
+    >
       <div
         className={
           props.centerContent
@@ -12,7 +24,7 @@ const Page = (props) => {
       >
         {props.children}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

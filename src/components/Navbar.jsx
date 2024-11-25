@@ -45,66 +45,63 @@ const Navbar = () => {
   return (
     <nav
       ref={navbarRef}
-      className="fixed z-50 w-[100vw] top-[-100%] px-4 flex h-[48px] md:h-[64px] duration-[800ms] overflow-auto"
+      className="fixed z-50 w-full top-[-100%] px-4 flex h-[48px] duration-[800ms] overflow-auto"
     >
-      <a href="/" className="text-xl font-bold cursor-none nav-title my-auto">
+      <a
+        href="/"
+        className="ml-1 text-lg font-bold cursor-none nav-title my-auto"
+      >
         jpdoshi.
       </a>
-      <ul className="ml-3 md:ml-auto flex my-auto">
+      <ul className="ml-2.5 md:ml-auto flex my-auto">
         <li>
-          <a
-            href="#intro"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#intro" className="link mx-2 md:mx-3 cursor-none">
             intro
           </a>
         </li>
         <li>
-          <a
-            href="#about"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#about" className="link mx-2 md:mx-3 cursor-none">
             about
           </a>
         </li>
         <li>
-          <a
-            href="#skills"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#skills" className="link mx-2 md:mx-3 cursor-none">
             skills
           </a>
         </li>
         <li>
-          <a
-            href="#portfolio"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#portfolio" className="link mx-2 md:mx-3 cursor-none">
             portfolio
           </a>
         </li>
         <li>
-          <a
-            href="#projects"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#projects" className="link mx-2 md:mx-3 cursor-none">
             projects
           </a>
         </li>
         <li>
-          <a
-            href="#blog"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#blog" className="link mx-2 md:mx-3 cursor-none">
             blog
           </a>
         </li>
         <li>
-          <a
-            href="#social"
-            className="link mx-2 md:mx-3 cursor-none hover:underline underline-offset-4"
-          >
+          <a href="#social" className="link mx-2 md:mx-3 cursor-none">
             social
+          </a>
+        </li>
+      </ul>
+      <ul className="ml-2.5 md:ml-auto flex my-auto text-[28px]">
+        <li>
+          <a href="https://instagram.com/_jpdoshi" className="link cursor-none">
+            <i className="lab la-instagram" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jpdoshi"
+            className="link ml-3 cursor-none"
+          >
+            <i className="lab la-github" />
           </a>
         </li>
       </ul>
