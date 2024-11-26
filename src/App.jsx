@@ -35,12 +35,30 @@ const App = () => {
         }}
       />
       <Page id="intro">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquid
-        commodi, facilis dolorum velit impedit, molestias aliquam similique
-        sequi dolor error quidem aperiam excepturi laboriosam debitis vel et,
-        rem enim repellendus. Voluptate, sequi illum. Animi voluptatem rem aut
-        est explicabo ipsam soluta nesciunt, eum possimus provident vitae
-        facere, aspernatur hic?
+        <div className="flex h-full flex-col-reverse md:flex-row md:px-6">
+          <div className="w-full md:h-[100vh] md:relative">
+            <div className="w-full md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]">
+              <h1 className="text-4xl md:text-[3.6vw] font-[900] mb-6 md:mb-12 mt-8 md:mt-0">
+                Hi, I am Jainam P Doshi!
+              </h1>
+              <p className="text-lg leading-relaxed mb-6 md:mb-8">
+                I am a software engineer who loves to make innovative projects.
+                I believe in self-learning and have fond of designing and
+                development.
+              </p>
+              <button className="btn cursor-none text-lg text-white bg-red-500 px-4 py-2 block w-full md:w-auto rounded shadow">
+                Explore More
+              </button>
+            </div>
+          </div>
+          <div className="w-full md:h-[100vh] md:relative">
+            <img
+              src="/assets/rocket.png"
+              alt="rocket.png"
+              className="mt-16 md:mt-0 md:w-3/4 md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]"
+            />
+          </div>
+        </div>
       </Page>
       <Page id="about">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquid

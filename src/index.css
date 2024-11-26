@@ -36,7 +36,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--text-color);
-  border-radius: 4px;
 }
 
 .quote {
