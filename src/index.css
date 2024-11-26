@@ -53,10 +53,11 @@ nav {
 .link:after {
   display: block;
   content: "";
-  border-bottom: solid 2px var(--text-color);
+  border-bottom: solid 2px var(--bg-color);
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
+
 .link:hover:after {
   transform: scaleX(1);
 }
@@ -69,5 +70,9 @@ nav {
 
   nav {
     color: var(--text-color);
+  }
+
+  .link:after {
+    border-bottom: solid 2px var(--text-color);
   }
 }

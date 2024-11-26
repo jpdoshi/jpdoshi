@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import { useLenis } from "@studio-freight/react-lenis";
 
@@ -45,12 +45,9 @@ const Navbar = () => {
   return (
     <nav
       ref={navbarRef}
-      className="fixed z-50 w-full top-[-100%] px-4 flex h-[64px] duration-[800ms] overflow-auto mix-blend-exclusion"
+      className="fixed z-50 w-full top-[-100%] px-4 md:px-6 flex h-[64px] duration-[800ms] overflow-auto mix-blend-exclusion"
     >
-      <a
-        href="/"
-        className="ml-1 text-lg font-bold cursor-none nav-title my-auto"
-      >
+      <a href="/" className="text-lg font-bold cursor-none nav-title my-auto">
         jpdoshi.
       </a>
       <ul className="ml-2.5 md:ml-auto flex my-auto">

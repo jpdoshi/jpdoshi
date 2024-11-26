@@ -19,7 +19,7 @@ const Page = (props) => {
         className={
           props.centerContent
             ? "absolute -translate-x-2/4 -translate-y-2/4 left-[50%] top-[50%]"
-            : "px-4"
+            : "px-4 md:px-6"
         }
       >
         {props.children}
