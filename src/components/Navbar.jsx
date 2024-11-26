@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav
       ref={navbarRef}
-      className="fixed z-50 w-full top-[-100%] px-4 flex h-[48px] duration-[800ms] overflow-auto"
+      className="fixed z-50 w-full top-[-100%] px-4 flex h-[64px] duration-[800ms] overflow-auto mix-blend-exclusion"
     >
       <a
         href="/"
@@ -87,21 +87,6 @@ const Navbar = () => {
         <li>
           <a href="#social" className="link mx-2 md:mx-3 cursor-none">
             social
-          </a>
-        </li>
-      </ul>
-      <ul className="ml-2.5 md:ml-auto flex my-auto text-[28px]">
-        <li>
-          <a href="https://instagram.com/_jpdoshi" className="link cursor-none">
-            <i className="lab la-instagram" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/jpdoshi"
-            className="link ml-3 cursor-none"
-          >
-            <i className="lab la-github" />
           </a>
         </li>
       </ul>

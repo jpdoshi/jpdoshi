@@ -39,12 +39,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px;
 }
 
-nav {
-  background-color: var(--bg-color);
-}
-
 .quote {
   font-family: "Parisienne";
+}
+
+nav {
+  color: var(--bg-color);
 }
 
 .link {
@@ -66,5 +66,9 @@ nav {
   :root {
     --bg-color: #000;
     --text-color: #fafafa;
+  }
+
+  nav {
+    color: var(--text-color);
   }
 }

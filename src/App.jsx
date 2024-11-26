@@ -15,7 +15,7 @@ const App = () => {
         <img
           src="/pfp.png"
           alt="Profile Picture"
-          className="h-[180px] mb-6 block mx-auto"
+          className="h-[180px] mb-6 block mx-auto shadow rounded-full"
           loading="lazy"
         />
         <div className="w-[100vw]">
@@ -29,7 +29,7 @@ const App = () => {
         </div>
       </Page>
       <i
-        className="las la-arrow-down btn animate-bounce text-[36px] absolute bottom-[24px] left-[calc(50%_-_18px)]"
+        className="las la-arrow-down btn animate-bounce text-[28px] absolute bottom-[24px] left-[calc(50%_-_20px)] rounded-full border border-gray-500 border-opacity-[50%] p-[10px]"
         onClick={() => {
           lenis.scrollTo("#intro");
         }}
