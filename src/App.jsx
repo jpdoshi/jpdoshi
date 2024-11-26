@@ -4,6 +4,7 @@ import Page from "./components/Page";
 import Navbar from "./components/Navbar";
 
 import { useLenis } from "@studio-freight/react-lenis";
+import { motion } from "framer-motion";
 
 const App = () => {
   const lenis = useLenis();
@@ -46,22 +47,41 @@ const App = () => {
                 I believe in self-learning and have fond of designing and
                 development.
               </p>
-              <button
-                className="btn cursor-none text-lg px-4 py-2 block w-full md:w-auto rounded border border-[var(--text-color)] hover:text-[var(--bg-color)] hover:bg-[var(--text-color)] duration-500"
+              <motion.button
+                whileHover={{
+                  scale: 1.15,
+                  backgroundColor: "var(--text-color)",
+                  color: "var(--bg-color)",
+                }}
+                whileTap={{ scale: 0.9 }}
+                transition={{
+                  type: "spring",
+                }}
+                className="btn cursor-none text-lg px-4 py-2 block w-full md:w-auto rounded border border-[var(--text-color)]"
                 onClick={() => {
                   lenis.scrollTo("#about");
                 }}
               >
                 Explore More <i className="las la-arrow-right"></i>
-              </button>
+              </motion.button>
             </div>
           </div>
           <div className="w-full md:h-[100vh] md:relative">
-            <img
-              src="/assets/rocket.png"
-              alt="rocket.png"
-              className="mt-16 md:mt-0 w-full md:w-3/4 max-w-[1024px] md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]"
-            />
+            <div className="mt-16 md:mt-0 w-full md:w-3/4 max-w-[1024px] md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]">
+              <motion.img
+                initial={{ y: -10 }}
+                animate={{ y: [-10, 10, -10] }} // Moves up and down
+                transition={{
+                  duration: 3, // Time for one cycle
+                  repeat: Infinity, // Infinite loop
+                  repeatType: "loop", // Loops the animation
+                  ease: "easeInOut", // Smooth easing for a bouncing effect
+                }}
+                src="/assets/rocket.png"
+                alt="rocket.png"
+                className="w-full"
+              />
+            </div>
           </div>
         </div>
       </Page>
