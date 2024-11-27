@@ -1,18 +1,21 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState } from "react";
 
 import { useLenis } from "@studio-freight/react-lenis";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const navbarRef = useRef();
+  // const navbarRef = useRef();
+  const [onCoverPage, setOnCoverPage] = useState(true);
   const lenis = useLenis();
 
   useEffect(() => {
     const scrollHandler = () => {
       if (window.scrollY > window.innerHeight - 64) {
-        navbarRef.current.style.top = "0";
+        // navbarRef.current.style.top = "0";
+        setOnCoverPage(false);
       } else {
-        navbarRef.current.style.top = "-100%";
+        // navbarRef.current.style.top = "-100%";
+        setOnCoverPage(true);
       }
     };
 
@@ -44,73 +47,56 @@ const Navbar = () => {
   }, [lenis]);
 
   return (
-    <nav
-      ref={navbarRef}
-      className="fixed z-50 w-full top-[-100%] px-4 md:px-6 flex h-[64px] duration-[800ms] overflow-auto mix-blend-exclusion"
+    <motion.nav
+      initial={{ top: "-100%" }}
+      animate={{ top: onCoverPage ? "-100%" : "0" }}
+      className="fixed z-50 w-full px-4 md:px-6 flex h-[64px] overflow-auto mix-blend-exclusion antialiased"
     >
       <motion.a
-        whileHover={{ y: -2 }}
+        whileHover={{ y: -4 }}
         href="/"
-        className="font-bold cursor-none nav-title my-auto text-[18px]"
+        className="font-bold cursor-none nav-title my-auto text-xl"
       >
         jpdoshi.
       </motion.a>
       <ul className="ml-2.5 md:ml-auto flex my-auto">
         <li>
-          <a
-            href="#intro"
-            className="link mx-2 md:mx-3 cursor-none text-[17px]"
-          >
+          <a href="#intro" className="link mx-2 md:mx-3">
             intro
           </a>
         </li>
         <li>
-          <a
-            href="#about"
-            className="link mx-2 md:mx-3 cursor-none text-[17px]"
-          >
+          <a href="#about" className="link mx-2 md:mx-3">
             about
           </a>
         </li>
         <li>
-          <a
-            href="#skills"
-            className="link mx-2 md:mx-3 cursor-none text-[17px]"
-          >
+          <a href="#skills" className="link mx-2 md:mx-3">
             skills
           </a>
         </li>
         <li>
-          <a
-            href="#portfolio"
-            className="link mx-2 md:mx-3 cursor-none text-[17px]"
-          >
+          <a href="#portfolio" className="link mx-2 md:mx-3">
             portfolio
           </a>
         </li>
         <li>
-          <a
-            href="#projects"
-            className="link mx-2 md:mx-3 cursor-none text-[17px]"
-          >
+          <a href="#projects" className="link mx-2 md:mx-3">
             projects
           </a>
         </li>
         <li>
-          <a href="#blog" className="link mx-2 md:mx-3 cursor-none text-[17px]">
+          <a href="#blog" className="link mx-2 md:mx-3">
             blog
           </a>
         </li>
         <li>
-          <a
-            href="#social"
-            className="link mx-2 md:mx-3 cursor-none text-[17px]"
-          >
+          <a href="#social" className="link mx-2 md:mx-3">
             social
           </a>
         </li>
       </ul>
-    </nav>
+    </motion.nav>
   );
 };
 

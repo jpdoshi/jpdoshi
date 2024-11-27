@@ -19,6 +19,7 @@ body {
   color: var(--text-color);
   width: 100%;
   overflow-x: hidden;
+  transition: 300ms ease;
 }
 
 *::selection {
@@ -43,36 +44,27 @@ body::-webkit-scrollbar-thumb {
 }
 
 nav {
-  color: var(--bg-color);
+  color: #fafafa;
+}
+
+a,
+.btn {
+  cursor: none;
 }
 
 .link {
   display: block;
+  font-size: 17px;
 }
 
 .link:after {
   display: block;
   content: "";
-  border-bottom: solid 2px var(--bg-color);
+  border-bottom: solid 2px #fafafa;
   transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 .link:hover:after {
   transform: scaleX(1);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000;
-    --text-color: #fafafa;
-  }
-
-  nav {
-    color: var(--text-color);
-  }
-
-  .link:after {
-    border-bottom: solid 2px var(--text-color);
-  }
 }
