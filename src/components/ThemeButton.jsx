@@ -35,7 +35,7 @@ const ThemeButton = () => {
       whileTap={{
         scale: 0.9,
       }}
-      className="btn fixed bottom-0 right-0 m-6 z-50"
+      className="cursor-trigger fixed bottom-0 right-0 m-6 z-50"
       onClick={() => {
         toggleTheme();
       }}

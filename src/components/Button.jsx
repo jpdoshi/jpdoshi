@@ -18,7 +18,7 @@ const Button = ({ onClick, children }) => {
       transition={{
         type: "spring",
       }}
-      className="btn cursor-none text-lg px-4 py-2 block w-full md:w-auto rounded border border-[var(--text-color)]"
+      className="cursor-none text-lg px-4 py-2 block w-full md:w-auto rounded border border-[var(--text-color)]"
       onClick={onClick}
     >
       {children}

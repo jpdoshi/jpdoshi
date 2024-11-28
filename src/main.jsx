@@ -17,34 +17,20 @@ createRoot(document.getElementById("root")).render(
       {!isMobile ? (
         <AnimatedCursor
           innerSize={8}
-          outerSize={64}
+          outerSize={40}
           color="var(--cursor-color)"
           outerStyle={{
             backgroundColor: "transparent",
             border: "2px solid rgba(250, 250, 250, 0.25)",
-            mixBlendMode: "exclusion",
+            mixBlendMode: "difference",
           }}
-          innerScale={0.8}
-          outerScale={1.34}
+          innerScale={6}
+          outerScale={1.25}
           innerStyle={{
             backgroundColor: "var(--cursor-color)",
-            mixBlendMode: "exclusion",
+            mixBlendMode: "difference",
           }}
-          clickables={[
-            "a",
-            'input[type="text"]',
-            'input[type="email"]',
-            'input[type="number"]',
-            'input[type="submit"]',
-            'input[type="image"]',
-            "label[for]",
-            "select",
-            "textarea",
-            "button",
-            ".link",
-            ".btn",
-            ".nav-title",
-          ]}
+          clickables={[".link", ".nav-title", ".cursor-trigger"]}
         />
       ) : null}
       <App />
