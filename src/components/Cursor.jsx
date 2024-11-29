@@ -8,6 +8,7 @@ const Cursor = () => {
 
   const mousePos = { x: useMotionValue(0), y: useMotionValue(0) };
   const [isHovering, setIsHovering] = useState(false);
+  const [inViewport, setInViewport] = useState(false);
 
   const zoomOnHover = () => {
     setIsHovering(true);
@@ -49,6 +50,20 @@ const Cursor = () => {
 
     mousePos.x.set(clientX - cursorSize / 2);
     mousePos.y.set(clientY - cursorSize / 2);
+
+    const windowWidth = window.innerWidth - 4;
+    const windowHeight = window.innerHeight - 4;
+
+    if (
+      clientX > 4 &&
+      clientX < windowWidth &&
+      clientY > 4 &&
+      clientY < windowHeight
+    ) {
+      setInViewport(true);
+    } else {
+      setInViewport(false);
+    }
   };
 
   useEffect(() => {
@@ -60,9 +75,11 @@ const Cursor = () => {
     <motion.div
       initial={{
         scale: 1,
+        opacity: 0,
       }}
       animate={{
         scale: isHovering ? zoomMultiplier : 1,
+        opacity: inViewport ? 1 : 0,
       }}
       className="cursor"
       style={{ top: smoothMousePos.y, left: smoothMousePos.x }}
