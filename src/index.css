@@ -47,11 +47,6 @@ nav {
   color: #fafafa;
 }
 
-a,
-.btn {
-  cursor: none;
-}
-
 .link {
   display: block;
   font-size: 17px;
@@ -67,4 +62,21 @@ a,
 
 .link:hover:after {
   transform: scaleX(1);
+}
+
+.btn {
+  color: white;
+  mix-blend-mode: difference;
+  z-index: 50;
+}
+
+.cursor {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: var(--cursor-color);
+  mix-blend-mode: difference;
+  position: fixed;
+  z-index: 10;
+  pointer-events: none;
 }

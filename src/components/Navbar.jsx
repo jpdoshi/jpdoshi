@@ -55,7 +55,7 @@ const Navbar = () => {
       <motion.a
         whileHover={{ y: -4 }}
         href="/"
-        className="font-bold cursor-none nav-title my-auto text-xl"
+        className="font-bold nav-title my-auto text-xl"
       >
         jpdoshi.
       </motion.a>

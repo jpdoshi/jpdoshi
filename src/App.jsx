@@ -33,7 +33,7 @@ const App = () => {
         </div>
       </Page>
       <i
-        className="las la-arrow-down cursor-trigger animate-bounce text-[28px] absolute bottom-[24px] left-[calc(50%_-_20px)] rounded-full border border-gray-500 border-opacity-[50%] p-[10px]"
+        className="btn las la-arrow-down animate-bounce text-[28px] absolute bottom-[24px] left-[calc(50%_-_20px)] rounded-full border border-gray-500 border-opacity-[50%] p-[10px]"
         onClick={() => {
           lenis.scrollTo("#intro");
         }}
