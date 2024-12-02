@@ -44,7 +44,7 @@ const App = () => {
             className="w-full md:h-[100vh] md:relative"
             initial={{ x: -64 }}
             whileInView={{ x: 0 }}
-            viewport={{ amount: 0.75, once: true }}
+            viewport={{ amount: 0.5, once: true }}
           >
             <div className="w-full md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]">
               <h1 className="text-4xl md:text-[3.6vw] font-[900] mb-8 md:mb-12 mt-8 md:mt-0">
