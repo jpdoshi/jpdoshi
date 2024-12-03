@@ -22,13 +22,15 @@ const App = () => {
           className="h-[180px] mb-6 block mx-auto shadow rounded-full"
           loading="lazy"
         />
-        <div className="w-[100vw]">
+        <div className="w-screen">
           <blockquote className="text-center px-6">
-            <span className="quote text-4xl">
+            <span className="quote text-3xl">
               &ldquo;Good design is obvious. Great design is transparent&rdquo;
             </span>
             <br />
-            <span className="text-xl font-[600]">- Joe Sparano</span>
+            <span className="text-xl leading-loose font-[600]">
+              - Joe Sparano
+            </span>
           </blockquote>
         </div>
       </Page>

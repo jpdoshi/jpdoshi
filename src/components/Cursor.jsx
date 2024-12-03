@@ -51,13 +51,13 @@ const Cursor = () => {
     mousePos.x.set(clientX - cursorSize / 2);
     mousePos.y.set(clientY - cursorSize / 2);
 
-    const windowWidth = window.innerWidth - 4;
-    const windowHeight = window.innerHeight - 4;
+    const windowWidth = window.innerWidth - 8;
+    const windowHeight = window.innerHeight - 8;
 
     if (
-      clientX > 4 &&
+      clientX > 8 &&
       clientX < windowWidth &&
-      clientY > 4 &&
+      clientY > 8 &&
       clientY < windowHeight
     ) {
       setInViewport(true);
