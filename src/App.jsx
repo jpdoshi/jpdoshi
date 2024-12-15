@@ -49,7 +49,7 @@ const App = () => {
             viewport={{ amount: 0.5, once: true }}
           >
             <div className="w-full md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]">
-              <h1 className="text-4xl md:text-[3.6vw] font-[900] mb-8 md:mb-12 mt-8 md:mt-0">
+              <h1 className="text-[10dvw] md:text-[4dvw] leading-tight font-[900] mb-8 md:mb-12 mt-8 md:mt-0">
                 Hi, I am Jainam P Doshi
               </h1>
               <p className="text-lg md:text-xl md:leading-relaxed mb-8">

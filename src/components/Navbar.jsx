@@ -50,7 +50,7 @@ const Navbar = () => {
     <motion.nav
       initial={{ top: "-100%" }}
       animate={{ top: onCoverPage ? "-100%" : "0" }}
-      className="fixed z-50 w-full px-4 md:px-6 flex h-[64px] overflow-auto mix-blend-difference antialiased"
+      className="fixed z-50 w-full px-4 flex h-[52px] md:h-[64px] overflow-auto mix-blend-difference antialiased"
     >
       <motion.a
         whileHover={{ y: -4 }}
