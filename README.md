@@ -2,8 +2,8 @@
 
 ###
 
-<p align="left">👋 Hello there! I am Jainam P. Doshi, Software Developer from India 🇮🇳. 💻 I love to design awesome apps with latest tech.</p>
-<a href="https://jpdoshi.vercel.app">Check out my Portfolio Website made with Vite and React</a>
+<p align="left">👋 Hello there! I am Jainam P. Doshi, Software Developer from India 🇮🇳. 💻 I love to design awesome apps with latest tech.
+Check out my <a href="https://jpdoshi.vercel.app">Portfolio Website</a> made with NextJS, Tailwind, Figma, Framer Motion and deployed on Vercel</p>
 
 ###
 
