@@ -3,7 +3,7 @@
 ###
 
 <p align="left">👋 Hello there! I am Jainam P. Doshi, Software Developer from India 🇮🇳. 💻 I love to design awesome apps with latest tech.
-Check out my <a href="https://jpdoshi.vercel.app">Portfolio Website</a> made with NextJS, Tailwind, Figma, Framer Motion and deployed on Vercel</p>
+Check out my <a href="https://thejddev.vercel.app">Portfolio Website</a> made with ReactJS, Tailwind, Figma and deployed on Vercel</p>
 
 ###
 
@@ -29,20 +29,12 @@ Thank you for taking the time to read my profile. Get <a href="https://github.co
 
 ###
 
-<h3 align="left">Stay Connected</h3>
+<h3 align="left">Support Developer</h3>
 
 ###
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/jainam-doshi-24063a2a0/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn logo"  />
-  </a>
-  <a href="https://stackoverflow.com/users/22644639/jainam-p-doshi" target="_blank">
-    <img src="https://skillicons.dev/icons?i=stackoverflow" alt="Stack Overflow logo"  />
-  </a>
-  <a href="https://codesandbox.io/u/jpdoshi2811" target="_blank">
-    <img src="https://skillicons.dev/icons?i=codepen" alt="Codesandbox logo"  />
-  </a>
-</div>
+<a href="https://ko-fi.com/thejddev">
+  <img src="https://github.com/user-attachments/assets/d8dc8d99-c8a3-4afc-9221-545ef2124b2b" />
+</a>
 
 ###
