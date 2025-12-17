@@ -28,13 +28,3 @@ Thank you for taking the time to read my profile. Get <a href="https://github.co
 </p>
 
 ###
-
-<h3 align="left">Support Developer</h3>
-
-###
-
-<a href="https://ko-fi.com/thejddev">
-  <img src="https://github.com/user-attachments/assets/d8dc8d99-c8a3-4afc-9221-545ef2124b2b" />
-</a>
-
-###
